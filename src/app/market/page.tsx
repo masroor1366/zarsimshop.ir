@@ -105,13 +105,18 @@ export default function MarketPage() {
 
       {items.length > 0 && (
         // <p className="text-sm text-center text-gray-500 mb-4">
-        <p className="text-md text-center text-black-500 mb-1">
+        // <p className="text-md text-center text-black-500 mb-1">
 
-          {/* 📅 {currency[0].date} | ⏰ {currency[0].time}  امروز: {getJalaliDayName()} */}
-              {/* 📅 {currency[0].date} | ⏰ {currency[0].time} | {getJalaliDayName()} | 09120270308 */}
-              📅 {currency[0].date} | ⏰ {currency[0].time} | 🗓️ {getJalaliDayName()} 
+        //   {/* 📅 {currency[0].date} | ⏰ {currency[0].time}  امروز: {getJalaliDayName()} */}
+        //       {/* 📅 {currency[0].date} | ⏰ {currency[0].time} | {getJalaliDayName()} | 09120270308 */}
+        //       📅 {currency[0].date} | ⏰ {currency[0].time} | 🗓️ {getJalaliDayName()} 
       
-        </p>
+        // </p>
+
+
+<p className="text-md text-center text-black-500 mb-1">
+  📅 {currency[0]?.date} | ⏰ {currency[0]?.time} | 🗓️ {getJalaliDayName()}
+</p>
         
       )}
 
