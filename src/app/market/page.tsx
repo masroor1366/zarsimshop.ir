@@ -89,16 +89,22 @@ export default function MarketPage() {
     IR_GOLD_24K: 'طلای ۲۴ عیار',
     IR_SILVER_999: 'نقره عیار ۹۹۹',
     IR_SILVER_925: 'نقره عیار ۹۲۵',
+        IR_COIN_EMAMI: 'سکه امامی',
+
   };
 
   const priorityList = [
     'USD',
-    'USDT_IRT',
     'XAUUSD',
     'XAGUSD',
-    'IR_GOLD_18K',
+    'USDT_IRT',
     'IR_GOLD_24K',
     'IR_SILVER_999',
+    'IR_COIN_EMAMI',
+    
+      
+    
+      'IR_GOLD_18K',
     'IR_SILVER_925',
   ];
 
@@ -121,7 +127,7 @@ export default function MarketPage() {
     return 'bg-white';
   };
 
-  
+
   return (
 <div className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-white flex items-center justify-center font-[IRANSans] text-right overflow-hidden">
 <div className="w-fit max-w-[98vw] aspect-[9/12] bg-white flex flex-col justify-between p-2 shadow-lg rounded-xl border border-yellow-300 relative">
@@ -173,11 +179,11 @@ export default function MarketPage() {
           📅 {items[1]?.date} | ⏰ {items[1]?.time} | 🗓️ {getJalaliDayName()}
         </p>
 
-        <div className="grid grid-cols-2 gap-2 mt-2">
+        <div className="grid grid-cols-3 gap-1.5 mt-2">
           {items.map((item) => (
             <div
               key={item.symbol}
-              className={`h-20 flex flex-col justify-between p-2 border rounded-md ${getBgColor(item.change_percent)}`}
+              className={`h-23 flex flex-col justify-between p-1.5 border rounded-md ${getBgColor(item.change_percent)}`}
             >
               <span className="text-sm font-semibold leading-tight text-gray-800">{item.label}</span>
               <div className="text-right space-y-0.5">
