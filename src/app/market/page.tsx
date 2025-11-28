@@ -123,8 +123,7 @@ export default function MarketPage() {
 
   return (
 <div className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-white flex items-center justify-center font-[IRANSans] text-right overflow-hidden">
-  <div className="w-[90vw] max-w-[640px] aspect-[9/16] bg-white flex flex-col justify-between p-3 shadow-lg rounded-xl border border-yellow-300 relative">
-
+<div className="w-fit max-w-[98vw] aspect-[9/12] bg-white flex flex-col justify-between p-2 shadow-lg rounded-xl border border-yellow-300 relative">
 {/* لوگو برند - گوشه بالا سمت راست */}
 <div className="absolute top-3 right-3 w-12 h-12 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
   <Image
@@ -177,7 +176,7 @@ export default function MarketPage() {
           {items.map((item) => (
             <div
               key={item.symbol}
-              className={`h-24 flex flex-col justify-between p-2 border rounded-md ${getBgColor(item.change_percent)}`}
+              className={`h-20 flex flex-col justify-between p-2 border rounded-md ${getBgColor(item.change_percent)}`}
             >
               <span className="text-sm font-semibold leading-tight text-gray-800">{item.label}</span>
               <div className="text-right space-y-0.5">
