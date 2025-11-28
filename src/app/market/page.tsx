@@ -121,6 +121,7 @@ export default function MarketPage() {
     return 'bg-white';
   };
 
+  
   return (
 <div className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-white flex items-center justify-center font-[IRANSans] text-right overflow-hidden">
 <div className="w-fit max-w-[98vw] aspect-[9/12] bg-white flex flex-col justify-between p-2 shadow-lg rounded-xl border border-yellow-300 relative">
