@@ -176,7 +176,7 @@ export default function MarketPage() {
     {!loading && !error && items.length > 0 && (
       <>
         <p className="text-xs text-center text-gray-600 mt-1 leading-tight">
-          📅 {items[1]?.date} | ⏰ {items[1]?.time} | 🗓️ {getJalaliDayName()}
+          📅 {items[3]?.date} | ⏰ {items[3]?.time} | 🗓️ {getJalaliDayName()}
         </p>
 
         <div className="grid grid-cols-3 gap-1.5 mt-2">
