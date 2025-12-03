@@ -203,7 +203,7 @@ export default function MarketPage() {
 
     {/* فوتر تبلیغاتی */}
     <div className="bg-black text-white text-center py-2 text-sm rounded-md shadow-sm mt-2 leading-tight">
-      📢 برای قیمت روزانه و آموزش رایگان، پیج رو فالو کن: @ZarSimShop.ir
+📢 برای قیمت روزانه و مشاوره رایگان، پیج رو فالو کن: @ZarSimShop.ir
     </div>
   </div>
 </div>
