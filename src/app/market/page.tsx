@@ -144,6 +144,23 @@ export default function MarketPage() {
 </div>
 
 
+ 
+
+
+
+    <a referrerPolicy='origin' 
+    target='_blank'
+     href='https://trustseal.enamad.ir/?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C'>
+      <img
+       referrerPolicy='origin' 
+      src='https://trustseal.enamad.ir/logo.aspx?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C' 
+      alt=''
+       style={{ cursor: "pointer" }}
+      // code='noFb6UALV6gqz64VLxR44mdBpn5qD19C'
+      />
+
+      </a>
+
   
     {/* هدر تبلیغاتی */}
     <div className="bg-yellow-300 text-black text-center text-base font-bold py-2 rounded-md shadow-sm leading-tight">
@@ -209,3 +226,5 @@ export default function MarketPage() {
 </div>
   );
 }
+
+
