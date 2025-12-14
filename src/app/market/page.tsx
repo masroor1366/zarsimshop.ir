@@ -132,12 +132,12 @@ export default function MarketPage() {
 <div className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-white flex items-center justify-center font-[IRANSans] text-right overflow-hidden">
 <div className="w-fit max-w-[98vw] aspect-[9/12] bg-white flex flex-col justify-between p-2 shadow-lg rounded-xl border border-yellow-300 relative">
 {/* لوگو برند - گوشه بالا سمت راست */}
-<div className="absolute top-3 right-3 w-12 h-12 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
+<div className="absolute top-3 right-3 w-30 h-30 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
   <Image
     src="/logo.jpg"
     alt="ZarSim Logo"
-    width={40}
-    height={40}
+    width={110}
+    height={110}
   className="object-contain ring-1 ring-gray-300 shadow-md rounded-full bg-black"
     priority
   />
@@ -155,6 +155,8 @@ export default function MarketPage() {
        referrerPolicy='origin' 
       src='https://trustseal.enamad.ir/logo.aspx?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C' 
       alt=''
+      //  width={40}
+      //  height={40}
        style={{ cursor: "pointer" }}
       // code='noFb6UALV6gqz64VLxR44mdBpn5qD19C'
       />
