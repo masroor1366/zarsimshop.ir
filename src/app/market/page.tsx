@@ -131,54 +131,26 @@ export default function MarketPage() {
   return (
 <div className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-white flex items-center justify-center font-[IRANSans] text-right overflow-hidden">
 <div className="w-fit max-w-[98vw] aspect-[9/12] bg-white flex flex-col justify-between p-2 shadow-lg rounded-xl border border-yellow-300 relative">
-{/* لوگو برند - گوشه بالا سمت راست */}
-<div className="absolute top-3 right-3 w-30 h-30 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
+
+<div className="absolute top-3 right-3 w-12 h-12 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
+  <a href="https://instagram.com/zarsimshop.ir" target="_blank" rel="noopener noreferrer">
   <Image
     src="/logo.jpg"
     alt="ZarSim Logo"
-    width={110}
-    height={110}
+    width={40}
+    height={40}
   className="object-contain ring-1 ring-gray-300 shadow-md rounded-full bg-black"
     priority
   />
+</a>
 </div>
-
-
- 
-
-
-
-    <a referrerPolicy='origin' 
-    target='_blank'
-     href='https://trustseal.enamad.ir/?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C'>
-      <img
-       referrerPolicy='origin' 
-      src='https://trustseal.enamad.ir/logo.aspx?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C' 
-      alt=''
-      //  width={40}
-      //  height={40}
-       style={{ cursor: "pointer" }}
-      // code='noFb6UALV6gqz64VLxR44mdBpn5qD19C'
-      />
-
-      </a>
-
   
     {/* هدر تبلیغاتی */}
     <div className="bg-yellow-300 text-black text-center text-base font-bold py-2 rounded-md shadow-sm leading-tight">
-       فروش ویژه شمش طلا و نقره
+      زرسیم‌شاپ فروشگاه طلا و نقره
     </div>
 
-    {/* اطلاعات تماس */}
-    <div className="text-center text-sm font-medium leading-tight mt-1 space-y-1 text-gray-700">
-      <a href="https://wa.me/989120270308" target="_blank" rel="noopener noreferrer">
-        📱 09120270308 | خرید مستقیم شمش
-      </a>
-      <br />
-      <a href="https://instagram.com/zarsimshop.ir" target="_blank" rel="noopener noreferrer">
-          @ZarSimShop.ir | Gold & Silver Bullion
-      </a>
-    </div>
+
 
     {/* وضعیت بارگذاری یا خطا */}
     {loading && <p className="text-center text-sm text-gray-500 my-2 leading-tight">⏳ در حال دریافت اطلاعات...</p>}
@@ -222,7 +194,50 @@ export default function MarketPage() {
 
     {/* فوتر تبلیغاتی */}
     <div className="bg-black text-white text-center py-2 text-sm rounded-md shadow-sm mt-2 leading-tight">
-📢 برای قیمت روزانه و مشاوره رایگان، پیج رو فالو کن: @ZarSimShop.ir
+
+          {/* اطلاعات تماس */}
+    {/* <div className="text-center text-sm font-medium leading-tight mt-1 space-y-1 text-gray-700"> */}
+      <a href="https://wa.me/989120270308" target="_blank" rel="noopener noreferrer">
+        📱 09120270308 | خرید مستقیم 
+      </a>
+      <br />
+      <a href="https://instagram.com/zarsimshop.ir" target="_blank" rel="noopener noreferrer">
+          @ZarSimShop.ir | خرید و فروش شمش طلا و نقره
+      </a>
+    {/* </div> */}
+ {/* لوگو برند - گوشه بالا سمت راست */}
+<div className="absolute down-3 right-3 w-30 h-30 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
+  <a href="https://instagram.com/zarsimshop.ir" target="_blank" rel="noopener noreferrer">
+  <Image
+    src="/logo.jpg"
+    alt="ZarSim Logo"
+    width={110}
+    height={110}
+  className="object-contain ring-1 ring-gray-300 shadow-md rounded-full bg-black"
+    priority
+  />
+</a>
+</div>
+
+
+ 
+
+
+
+    <a referrerPolicy='origin' 
+    target='_blank'
+     href='https://trustseal.enamad.ir/?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C'>
+      <img
+       referrerPolicy='origin' 
+      src='https://trustseal.enamad.ir/logo.aspx?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C' 
+      alt=''
+      //  width={40}
+      //   height={40}
+       style={{ cursor: "pointer" }}
+      // code='noFb6UALV6gqz64VLxR44mdBpn5qD19C'
+      />
+
+      </a>
     </div>
   </div>
 </div>
