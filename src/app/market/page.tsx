@@ -206,13 +206,18 @@ export default function MarketPage() {
       </a>
     {/* </div> */}
  {/* لوگو برند - گوشه بالا سمت راست */}
-<div className="absolute down-3 right-3 w-30 h-30 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
+
+
+ <div className="  flex items-center justify-center">
+
+ 
+<div className="absolute  w-15 h-15 bg-white rounded-full shadow-md z-10 flex items-center justify-center">
   <a href="https://instagram.com/zarsimshop.ir" target="_blank" rel="noopener noreferrer">
   <Image
     src="/logo.jpg"
     alt="ZarSim Logo"
-    width={110}
-    height={110}
+    width={55}
+    height={55}
   className="object-contain ring-1 ring-gray-300 shadow-md rounded-full bg-black"
     priority
   />
@@ -231,13 +236,16 @@ export default function MarketPage() {
        referrerPolicy='origin' 
       src='https://trustseal.enamad.ir/logo.aspx?id=685793&Code=noFb6UALV6gqz64VLxR44mdBpn5qD19C' 
       alt=''
-      //  width={40}
-      //   height={40}
+       width={55}
+        height={55}
        style={{ cursor: "pointer" }}
       // code='noFb6UALV6gqz64VLxR44mdBpn5qD19C'
       />
 
       </a>
+
+      </div>
+
     </div>
   </div>
 </div>
